@@ -10,17 +10,17 @@ public class BasicCalculator {
 
         System.out.println("Your Majesty, what is thine first number?");
         float number1 = scanner.nextFloat();
-        scanner.nextLine();
+        scanner.nextLine();//CRLF
         System.out.println("Verily.");
 
         //second number
         System.out.println("What is thine second number?");
         float number2 = scanner.nextFloat();
-        scanner.nextLine();
+        scanner.nextLine();//CRLF
         System.out.println("Of course.");
 
         //now what?
-        System.out.println("What operation shall I perform for you my liege?");
+        System.out.println("What operation shall I perform for you my liege? I can:\n(A)dd\n(S)ubtract\n(M)ultiply\n(D)ivide\n Please, do be merciful and keep in mind I only know how to multiply.");
         String operation = scanner.nextLine();
         System.out.println("What was that your Excellency? Multiplication? For joy!\nI will calculate this with the utmost urgency.");
 
