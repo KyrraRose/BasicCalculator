@@ -28,7 +28,7 @@ public class BasicCalculator {
         double solution = number1*number2;
         System.out.printf("My liege, in your exacting wisdom you entrusted me to multiply the numbers of %.2f and %.2f.\nThe solution of which is %.2f. Have I served you well on this day?",number1,number2,solution);
         String service = scanner.nextLine();
-        System.out.println("Thy will be done your Majesty. Huzzah!");
+        System.out.printf("%s? Thy will be done your Majesty. Huzzah!",service);
 
 
     }
